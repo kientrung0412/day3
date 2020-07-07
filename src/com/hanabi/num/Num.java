@@ -274,5 +274,34 @@ public class Num {
         return integers;
     }
 
+    public double total() {
+
+        return (double) a + b;
+
+    }
+
+    public double subtraction() {
+
+        return (double) a - b;
+
+    }
+
+    public double divide() {
+
+        return (double) a / b;
+
+    }
+
+    public double multiplication() {
+
+        return (double) a * b;
+
+    }
+
+    public double remainder() {
+
+        return (double) a % b;
+
+    }
 
 }
